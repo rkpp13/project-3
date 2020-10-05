@@ -1,0 +1,34 @@
+textarea {
+    min-height: 400px;
+}
+div#mailbox-view {
+    font-size: large;
+}
+.subject {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: .5rem;
+}
+.timestamp {
+    min-width: max-content;
+    text-align: right;
+    flex-grow: 1;
+}
+.email {
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+}
+.read {
+    background-color: #e6e6e6;
+}
+#buttons {
+    display: inline-flex;
+    gap: 10px;
+}
+pre {
+    font-family: Arial,sans-serif;
+    font-size: 1rem;
+}
